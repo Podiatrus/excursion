@@ -1,0 +1,45 @@
+/* 1. Global Resets & Variables */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Includes padding in width calculations */
+}
+
+:root {
+    /*--primary-color: #3498db;*/
+    --text-color: Gray;
+    --bg-color: Black;
+    --font-stack: 'Verdana', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 2. Body Defaults */
+body {
+    font-family: var(--font-stack);
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    line-height: 1.6;
+    padding: 20px;
+    align-items: center;
+}
+
+/* 3. Typography */
+h1, h2, h3 {
+    margin-bottom: 15px;
+    font-weight: Normal;
+    color: White;
+}
+
+h1 { font-size: 50px; }
+h2 { font-size: 42px; }
+
+p {
+    margin-bottom: 20px;
+    font-size: 21px;
+}
+
+/* 4. Links & Interactive Elements */
+a {
+    color: Aquamarine;
+    /*text-decoration: none;*/
+    /*transition: color 0.3s ease;*/
+}
