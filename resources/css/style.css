@@ -20,6 +20,8 @@ body {
     line-height: 1.6;
     padding: 20px;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 /* 3. Typography */
@@ -45,8 +47,6 @@ p {
 a {
     color: Aquamarine;
     font-size: 16px;
-    /*text-decoration: none;*/
-    /*transition: color 0.3s ease;*/
 }
 
 /* 5. Footer */
