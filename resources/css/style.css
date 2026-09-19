@@ -19,9 +19,7 @@ body {
     background-color: var(--bg-color);
     line-height: 1.6;
     padding: 20px;
-    display: grid;
-    place-items: center;
-    min-height: 100vh; /* Gives the container full screen height so vertical centering is visible */
+    text-align: center;
 }
 
 /* 3. Typography */
